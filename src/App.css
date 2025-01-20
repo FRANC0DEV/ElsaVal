@@ -1,0 +1,6 @@
+body {
+  /*text-align: center;*/
+  display: flex!important;
+  flex-direction: column;
+  justify-content: center;
+}

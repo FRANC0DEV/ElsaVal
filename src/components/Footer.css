@@ -1,0 +1,15 @@
+.Footer{
+    text-align: center;
+    color:white;
+    background-color: #5E3F44;
+    padding: 1rem 0;
+    font-family: "Urbanist", sans-serif;;
+}
+
+.txtEmail,.btnEmail{
+    transition: border-color 0.3s;
+}
+.txtEmail:focus,.btnEmail:active,.txtEmail:active,.btnEmail:focus{
+    border-color: #5E3F44;
+    box-shadow: 0 0 10px #5E3F44; 
+}

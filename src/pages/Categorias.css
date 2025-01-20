@@ -1,0 +1,118 @@
+/*off canvas*/
+.canvas{
+  font-family: "Urbanist", sans-serif;
+  background-color: #6F2A2D;
+  color:#FFFFFF;
+}
+.canvas-title{
+  font-size: 30px;
+}
+.canvas-body{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.categorias-select{
+  margin-top: 20px;
+  height: 40px;
+  overflow-y: auto;
+  border: 2px solid #5E3F44;
+  color:#6F2A2D;
+  border-radius: 0px;
+}
+.categorias-option{
+  transition: background-color 0.2s ease!important;
+}
+.categorias-option:hover{
+  background-color: #5E3F44!important;
+}
+/*fin off canvas*/
+/* contenedor principal */
+.Nuestros-productos-main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Urbanist", sans-serif;
+    flex-wrap: wrap;
+    font-weight: 100;
+    align-items: center;
+  }
+  
+  /* cabezera que contiene el titulo y el boton de filtrado */
+  .cabezera-productos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    margin-bottom: 10px;
+    color: #88525B !important;
+  }
+  /*titulo productos*/
+  .productos-title {
+    width: 100%;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    margin-left: 10px;
+    text-align: left;
+  }
+  
+  .contenedor-btnFiltrar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  
+  .btnFiltrar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-right: 10px;
+    width: 110px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    border-color: #88525B;
+    color:#88525B;
+    background-color: white;
+    transition: background-color 0.4s ease;
+  }
+
+  .btnFiltrar:hover{
+    background-color: #752728;
+    border-color: #752728;
+    color: white!important;
+  }
+  .btnFiltrar:active{
+    background-color: #6F2A2D!important;
+    border-color: #6F2A2D!important;
+  }
+
+  /* productos */
+  .contenedor-resultados {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: transparent;
+    color:#88525B;
+  }
+  /*div con el titulo de los productos*/
+  .resultados-title{
+    margin-bottom: 0px!important;
+    margin-left: 10px;
+    text-align: start;
+    font-size: 25px;
+    border-bottom: 1px solid #E8E8E8;
+  }
+  /*fin div con titulo*/
+  
+  /*div con productos*/
+  .contenedor-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
